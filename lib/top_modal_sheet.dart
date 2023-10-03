@@ -30,6 +30,7 @@ Future<T?> showTopModalSheet<T>(
         child: Column(
           children: [
             Material(
+              color: Colors.transparent,
               borderRadius: borderRadius,
               child: Column(
                 mainAxisSize: MainAxisSize.min,
